@@ -12,7 +12,7 @@ public class Container<T> {
         this.item = item;
     }
 
-    public T isEmpty() {
-        return null;
+    public boolean isEmpty() {
+        return item == null;
     }
 }
